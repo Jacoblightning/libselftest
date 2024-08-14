@@ -1,6 +1,0 @@
-#ifndef LIBSELFTEST_LIBRARY_H
-#define LIBSELFTEST_LIBRARY_H
-
-void hello();
-
-#endif //LIBSELFTEST_LIBRARY_H
