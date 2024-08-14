@@ -6,7 +6,7 @@
 #include <cstdlib>
 #include <cerrno>
 
-#include "sha256.h"
+#include "libselftest/sha256.h"
 
 void sha256_hash_string (unsigned char hash[SHA256_DIGEST_LENGTH], char outputBuffer[65])
 {

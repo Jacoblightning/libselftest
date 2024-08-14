@@ -1,9 +1,9 @@
-#include "library.h"
+#include "libselftest/selftest.h"
 
 #include <cpr/cpr.h>
 #include <boost/dll/runtime_symbol_info.hpp>
 
-#include "sha256.h"
+#include "libselftest/sha256.h"
 
 std::string HashSelf() {
     char My_Hash[65];

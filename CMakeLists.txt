@@ -3,9 +3,11 @@ project(libselftest)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_library(libselftest STATIC selftest.cpp
-        sha256.cpp
-        sha256.h)
+add_library(libselftest STATIC libselftest/selftest.cpp
+        libselftest/sha256.cpp
+        include/libselftest/sha256.h)
+
+target_include_directories(libselftest PUBLIC include)
 
 include(FetchContent)
 FetchContent_Declare(cpr GIT_REPOSITORY https://github.com/libcpr/cpr.git)
