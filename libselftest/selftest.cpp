@@ -3,7 +3,7 @@
 #include <cpr/cpr.h>
 #include <boost/dll/runtime_symbol_info.hpp>
 
-#include "libselftest/sha256.h"
+#include "sha256.h"
 
 std::string HashSelf() {
     char My_Hash[65];
